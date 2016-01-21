@@ -1,6 +1,7 @@
 ifeq ($(KERNELRELEASE),)
 
-KERNELDIR ?= /home/linux/workdir/linux-2.6.39-FS2416/
+# 按需修改内核代码位置
+KERNELDIR ?= /home/linux/workdir/linux-2.6.39/
 PWD := $(shell pwd)
 
 modules:
